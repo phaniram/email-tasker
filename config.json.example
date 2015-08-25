@@ -1,0 +1,26 @@
+{
+   "db" : {
+     "host": "localhost",
+     "name": "test",
+     "user": "root",
+     "password": "password"
+   },
+   "adminApp" : {
+     "storage_dir": "uploads/",
+     "subjectKeyWord": "[KEYWORD]"
+   },
+   "mailListener" : {
+     "username": "a@example.com",
+     "password": "password",
+     "host": "imap.example.com",
+     "port": 993,
+     "tls": true,
+     "tlsOptions": { "rejectUnauthorized": false },
+     "mailbox": "INBOX",
+     "markSeen": true,
+     "fetchUnreadOnStart": true,
+     "mailParserOptions": {"streamAttachments": true},
+     "attachments": true,
+     "attachmentOptions": { "directory": "attachments/" }
+   }
+}

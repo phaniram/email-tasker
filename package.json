@@ -1,0 +1,33 @@
+{
+  "name": "email-tasker",
+  "version": "1.0.0",
+  "description": "tasks through email",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phaniram/email-tasker.git"
+  },
+  "keywords": [
+    "mail",
+    "tasks",
+    "parser"
+  ],
+  "author": "maturusrinivasphaniram@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phaniram/email-tasker/issues"
+  },
+  "homepage": "https://github.com/phaniram/email-tasker#readme",
+  "dependencies": {
+    "async": "^1.4.2",
+    "change-case": "^2.3.0",
+    "fs-extra": "^0.23.1",
+    "imap": "^0.8.15",
+    "mailparser": "^0.5.2",
+    "mysql": "^2.9.0",
+    "nconf": "^0.7.2"
+  }
+}
